@@ -316,7 +316,7 @@ zstd = ["zstandard (>=0.18.0)"]
 
 [[package]]
 name = "instagrapi"
-version = "<version>"
+version = "<1.18.0>"
 description = "Instagram Private API"
 
 [[package]]
