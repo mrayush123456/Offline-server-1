@@ -316,8 +316,27 @@ zstd = ["zstandard (>=0.18.0)"]
 
 [[package]]
 name = "instagrapi"
-version = "<1.18.0>"
-description = "Instagram Private API"
+version = "1.20.0"
+description = "Lightweight Instagram Private API"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[[package]]
+name = "httpx"
+version = "0.25.0"
+description = "A next generation HTTP client for Python."
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[[package]]
+name = "pydantic"
+version = "1.10.7"
+description = "Data validation and settings management using Python type annotations"
+category = "main"
+optional = false
+python-versions = ">=3.7"
 
 [[package]]
 name = "werkzeug"
