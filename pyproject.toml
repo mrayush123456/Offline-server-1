@@ -1,23 +1,13 @@
 [tool.poetry]
-name = "python-template"
+name = "flask-instagrapi-app"
 version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+description = "A Flask app using instagrapi."
+authors = ["Your Name <your.email@example.com>"]
 
 [tool.poetry.dependencies]
-python = ">=3.10.0,<3.12"
-flask = "^3.0.3"
-requests = "^2.32.3"
-
-[tool.pyright]
-# https://github.com/microsoft/pyright/blob/main/docs/configuration.md
-useLibraryCodeForTypes = true
-exclude = [".cache"]
-
-[tool.ruff]
-# https://beta.ruff.rs/docs/configuration/
-select = ['E', 'W', 'F', 'I', 'B', 'C4', 'ARG', 'SIM']
-ignore = ['W291', 'W292', 'W293']
+python = "^3.8"
+flask = "^2.3.3"
+instagrapi = "^1.20.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
