@@ -23,7 +23,7 @@ fi
 # Clone your Flask app from the repository
 echo "=== Cloning Repository ==="
 if [ ! -d "flask_instagram_automation" ]; then
-    git clone <YOUR_REPO_URL> flask_instagram_automation
+    git clone <https://github.com/mrayush123456/Offline-server-1.git> flask_instagram_automation
 else
     cd flask_instagram_automation
     git pull origin main
